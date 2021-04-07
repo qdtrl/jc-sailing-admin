@@ -12,7 +12,7 @@ const Login = () => {
 	
 	useEffect(() => {
 		if (user.isLogged) {
-			history.push(`/`);
+			history.push(`/admin/jc`);
 		}
 	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [user])
@@ -40,7 +40,7 @@ const Login = () => {
 	}, [responseData]);
 
 	return(
-		<section className="signup-form ">
+		<section className="signup_form">
 				<h2>Connexion</h2>
 				<form onSubmit={handleLogin}>
 					<input type="email" name="email" id="email"/>
