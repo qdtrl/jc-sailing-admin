@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital@1&display=swap%27');
+
+
+$primary-background: #3D4152;
+$secondary-background: #ffe5d9; 
+$primary-color: #D8E2DC;
+$secondary-color: #7C90DB;
+$tercary-color: #E5625E;
+$white: #EEEBD3;
+
+$title-font: 'Montserrat', sans-serif;
+$content-font: 'Lato', sans-serif;
+
+p, div {
+    font-family: 'Lato', sans-serif;
+    color: $primary-color;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    background-image: linear-gradient(to right top, #3d4152, #484f6a, #545d83, #5f6c9d, #6b7bb7, #688cc6, #669cd3, #65addf, #73bed8, #93ccd1, #b7d8d1, #d8e2dc);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    scroll-behavior: smooth;
+}
+
+*{
+    transition-duration: 0.5s;
+}
+
+
+.override-nav{
+    padding-top: 10vh;
+}
