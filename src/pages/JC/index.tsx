@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
+import Ads from '../Ads/';
 
 
 const JC = () => {
@@ -15,7 +16,8 @@ const JC = () => {
 	}, [user])
   return (
     <>
-      <p>{user.isLogged? "salut" : "fuck"}</p> 
+      <Ads/> 
+
     </>
   )
 }
